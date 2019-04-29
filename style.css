@@ -1,0 +1,17 @@
+/*
+Theme Name: Jamestr
+Theme URI: https://jamestr.dev
+Author: James
+Author URI: https://jamestr.dev
+Description: Portfolio site of James Ringuet, website developer extraordinaire (extra-ordinary).
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jamestr
+Tags: one-column
+One final, looooooooooooooooooong comment.
+*/
+
+html {
+	background-color: aliceblue;
+}
