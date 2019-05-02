@@ -1,3 +1,5 @@
+<!-- used to display a single post page -->
+
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
 
@@ -13,7 +15,7 @@
 
 	<?php endif; ?>
 
-	<p class="template">Template: index.php</p>
+	<p class="template">Template: single.php</p>
 
 </main>
 

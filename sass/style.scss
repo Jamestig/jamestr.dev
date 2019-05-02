@@ -1,0 +1,102 @@
+/*
+Theme Name: Jamestr
+Theme URI: https://jamestr.dev
+Author: James
+Author URI: https://jamestr.dev
+Description: Portfolio site of James Ringuet, website developer extraordinaire (extra-ordinary).
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jamestr
+Tags: one-column
+One final, looooooooooooooooooong comment.
+*/
+
+@import "normalize";
+@import "reset";
+
+
+html {
+	background-color: grey;
+}
+
+.header {
+	background-color: lightseagreen;
+
+	.headers {
+		.headers__title {
+			margin-left: 20vw;
+			padding: 10px;
+			display: inline-block;
+		}
+
+		.headers__description {
+			display: inline-block;
+		}
+	}
+
+	.nav {
+		background-color: lightcoral;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			margin-left: 20vw;
+			li {
+				display: inline-block;
+				a {
+					display: block;
+					padding: 10px;
+					font-size: 1.2em;
+				}
+			}
+		}
+		.nav__container {
+			display: inline-block;
+		}
+		.nav__widget {
+			display: inline-block;
+			margin-left: 10vw;
+		}
+	}
+}
+
+.container {
+	display: flex;
+	flex-flow: row;
+
+	.sidebar {
+		flex-basis: 20%;
+		background-color: lightcyan;
+		border-right: 2px solid lightseagreen;
+		min-width: 20vw;
+		padding: 0 1%;
+	}
+
+	.main {
+		flex-basis: 80%;
+		background-color: whitesmoke;
+		padding: 0 10vw 0 2%;
+	}
+}
+
+.footer {
+	background-color: lightgoldenrodyellow;
+	padding-top: 2em;
+}
+
+// Classes
+
+.template {
+	display: inline-block;
+	background-color: lightsteelblue;
+	color: white;
+	padding: 2px;
+}
+
+.template-part {
+	display: inline-block;
+	background-color: lightslategrey;
+	color: white;
+	padding: 2px;
+}

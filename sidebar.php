@@ -1,6 +1,6 @@
 <?php if (is_active_sidebar('main-sidebar')) : ?>
 
-	<aside class="main__sidebar" role="complementary">
+	<aside class="sidebar" role="complementary">
 
 		<h2>Sidebar</h2>
 

@@ -12,24 +12,28 @@
 
 	<header class="header">
 
-		<h1 class="header__title">
-			<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-				<?php bloginfo('name'); ?>
-			</a>
-		</h1>
-		<h2 class="header__description">
-			<?php bloginfo('description'); ?>
-		</h2>
+		<hgroup class="headers">
+			<h1 class="headers__title">
+				<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+					<?php bloginfo('name'); ?>
+				</a>
+			</h1>
+			<h2 class="headers__description"><?php bloginfo('description'); ?></h2>
+		</hgroup>
 
-		<nav class="header__nav" role="navigation">
-		<?php
-		wp_nav_menu(
-			array(
-				'menu' => 'header-menu'
-			)
-		);
-
-		?>
+		<nav class="nav" role="navigation">
+			<?php
+			$args = [
+				'theme_location' => 'header-menu',
+				'container_class' => 'nav__container',
+			];
+			wp_nav_menu($args);
+			?>
+			<?php if (is_active_sidebar('nav-widget')) : ?>
+				<?php dynamic_sidebar('nav-widget'); ?>
+			<?php endif; ?>
 		</nav>
 
 	</header>
+
+	<div class="container">

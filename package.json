@@ -1,0 +1,22 @@
+{
+	"name": "jamestr",
+	"version": "1.0.0",
+	"description": "jamestr.dev portfolio site",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jamestig/jamestr.dev.git"
+	},
+	"keywords": [
+		"portfolio"
+	],
+	"author": "James",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Jamestig/jamestr.dev/issues"
+	},
+	"homepage": "https://jamestr.dev"
+}

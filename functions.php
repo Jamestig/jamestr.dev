@@ -51,6 +51,12 @@ function jamestr_widget_areas() {
 		'before_title'	=> '<h2>',
 		'after_title'		=> '</h2>',
 	));
+	register_sidebar([
+		'name'					=> 'Nav Widget Area',
+		'id'						=> 'nav-widget',
+		'before_widget'	=> '<div class="nav__widget">',
+		'after_widget'	=> '</div>',
+	]);
 }
 add_action('widgets_init', 'jamestr_widget_areas');
 
